@@ -7,7 +7,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  color: #afaeb3;
+  color: #fff;
   font-size: 16px;
   display: flex;
   align-items: center;
@@ -29,18 +29,18 @@ li {
 ================================== */
  
 .section {
-  width: 700px; 
-  border: 1px solid black;
+  width: 700px;  
   padding: 30px 30px;
   box-sizing: border-box;
   margin: auto;
+  background: #41CCB4;
 }
 
 .progress-bar h5 {
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 10px;
-  color: #000;
+  color: #fff;
 }
 
 .main-progress {
@@ -57,7 +57,7 @@ li {
 
 .main-progress p span {
   display: block;
-  color: #343434;
+  color: #fff;
   margin-top: 1px;
 }
 
@@ -72,6 +72,7 @@ li {
   outline: none;
   margin-top: 25px;
   margin-bottom: 50px;
+  pointer-events: none;
 }
 #range .ui-slider-handle {
   margin: -5px 0 0 -2px;
@@ -115,7 +116,7 @@ div#date ul li span {
   display: block;
   font-size: 30px;
   font-weight: 600;
-  color: #343434;
+  color: #fff;
 }
 div#date p {
   text-transform: uppercase;
