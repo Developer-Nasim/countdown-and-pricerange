@@ -75,7 +75,7 @@ li {
   pointer-events: none;
 }
 #range .ui-slider-handle {
-  margin: -5px 0 0 -2px;
+  margin: -4px 0 0 -2px;
   border-radius: 100%;
   background: #ffffff;
   height: 15px;
