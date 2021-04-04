@@ -1,11 +1,11 @@
 /*   Theme default css */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *{
   margin: 0;
   padding: 0;
-}
+} 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   color: #afaeb3;
   font-size: 16px;
@@ -57,7 +57,7 @@ li {
 
 .main-progress p span {
   display: block;
-  color: #000;
+  color: #343434;
   margin-top: 1px;
 }
 
@@ -70,8 +70,8 @@ li {
   height: 8px;
   background: #b4bfc9;
   outline: none;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
 #range .ui-slider-handle {
   margin: -5px 0 0 -2px;
@@ -115,11 +115,11 @@ div#date ul li span {
   display: block;
   font-size: 30px;
   font-weight: 600;
-  color: black;
+  color: #343434;
 }
 div#date p {
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 18px;
 }
 
